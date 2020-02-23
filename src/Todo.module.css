@@ -1,0 +1,54 @@
+:root {
+    --yellow: #ffc600;
+    --black: #272727;
+}
+body {
+    
+    background: linear-gradient(110deg, #f93d66, #6d47d9);
+}
+.Input {
+    border: 2px solid var(--black);
+    font-size: 20px;
+    padding: 20px;
+    width: 33%;
+    margin: auto;
+}
+.Nappi {
+    border: 2px solid var(--black);
+    font-size: 20px;
+    padding: 20px;
+    width: 5.9%;
+}
+.Lista {
+    border: 2px solid var(--black);
+    font-size: 1rem;
+    display: grid;
+    padding: 10px;
+    border-radius: 6px;
+    color: var(--black);
+    background: var(--yellow);
+    width: 40%;
+    font-size: 18px;
+    margin: auto;
+    display: flex;
+}
+.Lista p{
+    margin-right: 500px;
+}
+.Punanappi {
+    background-color: #ff0000;
+    color: #fff;
+    border-color: #272727;
+    float: right;
+    margin-bottom: 10px;
+    padding: 10px 17px;
+    border-radius: 50%;
+    cursor: pointer; 
+}
+.Checkbox {
+    zoom: 2;
+    margin: 11px 10px 2px 2px;
+}
+.react-icons {
+    border: none;
+}
